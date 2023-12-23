@@ -1,0 +1,299 @@
+/* Desktop Version */
+@media screen and (max-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 99%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: brown-pro, sans-serif;
+    margin-top: 3%;
+  }
+
+  .left {
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  img {
+    width: 77.333px;
+    height: 80px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+  }
+
+  h1 {
+    color: #000b0a;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+  }
+
+  .left p {
+    color: #737373;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+  }
+
+  .right {
+    width: 40%;
+    height: 60%;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  }
+
+  #fullName,
+  #genderDate,
+  #weightHeight {
+    display: flex;
+  }
+
+  #fullName,
+  #genderDate,
+  #weightHeight,
+  #activity,
+  .passwordContainer,
+  button {
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+
+  #fullName input,
+  #genderDate select,
+  #genderDate input,
+  #weightHeight input {
+    width: 238px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #f0f0f0;
+  }
+
+  #selectActivity,
+  #passwordInput {
+    width: 500px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #f0f0f0;
+  }
+
+  #firstName,
+  #lastName {
+    width: 159px;
+    color: #011c34;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+  }
+
+  #lastName,
+  #dob,
+  #height {
+    margin-left: 5%;
+  }
+
+  #lnLabel,
+  #dobLabel,
+  #heightLabel {
+    margin-left: 6%;
+  }
+
+  .passwordContainer {
+    position: relative;
+  }
+
+  .show-password-icon {
+    position: absolute;
+    right: 4%;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  button {
+    width: 500px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #fff;
+    border: 1px solid #2ec4b6;
+    background-color: #2ec4b6;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+  }
+
+  #terms {
+    font-size: 14px;
+    margin-left: 8%;
+    color: #000;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  #terms a {
+    color: #2ec4b6;
+    text-decoration: underline;
+    font-family: Sofia Pro;
+    font-style: normal;
+  }
+}
+
+/* Mobile Version */
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 99%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: brown-pro, sans-serif;
+    margin-top: 3%;
+  }
+
+  .left {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  img {
+    width: 38.667px;
+    height: 40px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+  }
+
+  h1 {
+    color: #000b0a;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+  }
+
+  .left p {
+    color: #737373;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 90%;
+  }
+
+  .right {
+    width: 80%;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  }
+
+  #fullName,
+  #genderDate,
+  #weightHeight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #fullName,
+  #genderDate,
+  #weightHeight,
+  #activity,
+  .passwordContainer,
+  button {
+    margin-top: 5%;
+    margin-left: 7%;
+  }
+
+  #fullName input,
+  #genderDate select,
+  #genderDate input,
+  #weightHeight input,
+  #selectActivity,
+  #passwordInput {
+    width: 90%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #f0f0f0;
+  }
+
+  #firstName,
+  #lastName {
+    color: #011c34;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+  }
+
+  #lastName,
+  #dob,
+  #height {
+    margin-left: 0%;
+  }
+
+  #lnLabel,
+  #dobLabel,
+  #heightLabel {
+    margin-left: 0%;
+  }
+
+  .passwordContainer {
+    position: relative;
+  }
+
+  .show-password-icon {
+    position: absolute;
+    right: 13%;
+    cursor: pointer;
+  }
+
+  button {
+    width: 85%;
+    height: 48px;
+    flex-shrink: 0;
+    color: #fff;
+    border: 1px solid #2ec4b6;
+    background-color: #2ec4b6;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+  }
+
+  #terms {
+    font-size: 14px;
+    margin-left: 6%;
+    margin-right: 7%;
+    color: #000;
+    font-family: Sofia Pro;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  #terms a {
+    color: #2ec4b6;
+    text-decoration: underline;
+    font-family: Sofia Pro;
+    font-style: normal;
+  }
+}
